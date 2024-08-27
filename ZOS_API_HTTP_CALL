@@ -1,7 +1,7 @@
 *&---------------------------------------------------------------------*
 *&  Include           ZOS_API_HTTP_CALL
 *&---------------------------------------------------------------------*
-
+ 
 * API URL'sini oluştur
 lv_url = |http://api.openweathermap.org/data/2.5/weather?q={ lv_city }&appid={ lv_api_key }&units=metric|.
 
