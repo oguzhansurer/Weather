@@ -1,0 +1,13 @@
+*&---------------------------------------------------------------------*
+*&  Include           ZOS_API_JSON_PARSE
+*&---------------------------------------------------------------------*
+
+
+IF lv_status_code = 200.
+  WRITE: / 'API´den başarılı yanıt alındı:', lv_json_string.
+
+  SPLIT lv_json_string AT ',' INTO TABLE lt_weather.
+
+ELSE.
+  WRITE: / 'İstek başarısız oldu. Durum Kodu:', lv_status_code, lv_reason.
+ENDIF.
