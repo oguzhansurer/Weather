@@ -1,7 +1,7 @@
 *&---------------------------------------------------------------------*
 *&  Include           ZOS_API_DEFINITION
 *&---------------------------------------------------------------------*
-
+ 
 * ZOS_API_DEFINITION: Değişken ve veri tanımlamaları
 
 DATA: lv_url         TYPE string,
