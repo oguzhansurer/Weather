@@ -1,0 +1,16 @@
+*&---------------------------------------------------------------------*
+*&  Include           ZOS_API_DEFINITION
+*&---------------------------------------------------------------------*
+
+* ZOS_API_DEFINITION: Değişken ve veri tanımlamaları
+
+DATA: lv_url         TYPE string,
+      lv_response    TYPE string,
+      lv_city        TYPE string VALUE 'istanbul',
+      lv_api_key     TYPE string VALUE 'c667c4af9677e049f1f166c26acba742',
+      lv_json_string TYPE string,
+      lt_weather     TYPE TABLE OF string,
+      ls_weather     TYPE string,
+      lo_http_client TYPE REF TO if_http_client,
+      lv_status_code TYPE i,
+      lv_reason       TYPE string.
