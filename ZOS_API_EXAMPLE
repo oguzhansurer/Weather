@@ -6,7 +6,7 @@
 *&
 *&---------------------------------------------------------------------*
 
-REPORT ZOS_API_EXAMPLE.
+REPORT ZOS_API_EXAMPLE. 
 
 PARAMETERS: p_city TYPE string DEFAULT 'Istanbul'.
 
