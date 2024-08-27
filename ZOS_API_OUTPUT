@@ -1,0 +1,11 @@
+*&---------------------------------------------------------------------*
+*&  Include           ZOS_API_OUTPUT
+*&---------------------------------------------------------------------*
+
+
+
+LOOP AT lt_weather INTO ls_weather.
+  WRITE: / ls_weather.
+ENDLOOP.
+
+CALL METHOD lo_http_client->close( ).
